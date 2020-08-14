@@ -1,0 +1,39 @@
+//package cn.enjoy;
+//import cn.enjoy.controller.ProductController;
+//import cn.enjoy.service.IProductService;
+//import cn.enjoy.vo.Product;
+//
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.test.context.junit4.SpringRunner;
+//
+//import javax.annotation.Resource;
+//
+//@SpringBootTest(classes = ProductApp.class)
+//@RunWith(SpringRunner.class)
+//public class ProductServiceTest {
+//    @Resource
+//    private IProductService iProductService;
+//    @Resource
+//    private ProductController productController;
+//    @Test
+//    public void testGet() {
+//        System.out.println(iProductService.get(1));
+//    }
+//    @Test
+//    public void testAdd() {
+//        Product dept = new Product() ;
+//        dept.setProductName("lison-" + System.currentTimeMillis());
+//        System.out.println(iProductService.add(dept));
+//    }
+//    @Test
+//    public void testList() {
+//        System.out.println(iProductService.list());
+//    }
+//    @Test
+//    public void discover() {
+//        Object resObject = productController.discover();
+//        System.out.println(resObject.toString());
+//    }
+//}
