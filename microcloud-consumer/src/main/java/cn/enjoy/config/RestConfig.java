@@ -7,8 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.client.RestTemplate;
 
-import com.netflix.loadbalancer.IRule;
-
 import java.nio.charset.Charset;
 import java.util.Base64;
 
@@ -32,8 +30,4 @@ public class RestConfig {
         return headers;
     }
 
-//    @Bean
-//    public IRule ribbonRule() { // 其中IRule就是所有规则的标准
-//        return new com.netflix.loadbalancer.RandomRule(); // 随机的访问策略
-//    }
 }
