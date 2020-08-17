@@ -19,6 +19,7 @@
         <module>microcloud-eureka3</module>
         <module>microcloud-provider-product2</module>
         <module>microcloud-provider-product3</module>
+        <module>microcloud-service</module>
     </modules>
     
     <properties>
